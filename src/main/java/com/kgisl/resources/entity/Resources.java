@@ -28,21 +28,21 @@ public class Resources {
     private String resTech;
     private String resType;
     private String resUrl;
-//    @ManyToMany
+  @ManyToOne(cascade = CascadeType.ALL)
 // //@JoinColumn(name = "userId", updatable = false, insertable = true)
-//     private List<User> user;
+   private Level level;
    
 
-//      /**
-//      * @param User the user to set
-//      */
-//      public List<User> getUser() {
-//         return user;
-//     }
+     /**
+     * @param Level the level to set
+     */
+     public Level getLevel() {
+        return level;
+    }
 
-//    public void setUser(List<User> user) {
-//        this.user = user;
-//    }
+   public void setLevel(Level level) {
+       this.level = level;
+   }
     
    
    
@@ -115,12 +115,14 @@ public class Resources {
     public void setResUrl(String resUrl) {
         this.resUrl = resUrl;
     }
-     public Resources(long resId,String resName,String resTech,String resType,String resUrl){
+     public Resources(long resId,String resName,String resTech,String resType,String resUrl,Level level){
      this.resId=resId;
      this.resName=resName;
      this.resTech=resTech;
      this.resType=resType;
      this.resUrl=resUrl;
+     this.level=level;
+     
      }
      public Resources(){
          
