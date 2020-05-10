@@ -1,6 +1,9 @@
 
 
 
+
+
+
 package com.kgisl.resources.entity;
 import com.kgisl.resources.entity.User;
 import javax.persistence.Entity;
@@ -22,8 +25,7 @@ public class Resources {
  @GeneratedValue
    @Column(name="RES_ID")
     private Long resId;
-  
-   
+    private String resImg;
     private String resName;
     private String resTech;
     private String resType;
@@ -56,7 +58,7 @@ public class Resources {
     /**
      * @param resId the resId to set
      */
-    public void setResId(Long userId) {
+    public void setResId(Long ResId) {
         this.resId = resId;
     }
 
@@ -72,6 +74,19 @@ public class Resources {
      */
     public void setResName(String resName) {
         this.resName = resName;
+    }
+     /**
+     * @return the resImg
+     */
+    public String getResImg() {
+        return resImg;
+    }
+
+    /**
+     * @param resImg the resName to set
+     */
+    public void setResImg(String resImg) {
+        this.resImg = resImg;
     }
 
       /**
@@ -115,8 +130,9 @@ public class Resources {
     public void setResUrl(String resUrl) {
         this.resUrl = resUrl;
     }
-     public Resources(long resId,String resName,String resTech,String resType,String resUrl,Level level){
+     public Resources(long resId,String resImg,String resName,String resTech,String resType,String resUrl,Level level){
      this.resId=resId;
+  this.resImg=resImg;
      this.resName=resName;
      this.resTech=resTech;
      this.resType=resType;
