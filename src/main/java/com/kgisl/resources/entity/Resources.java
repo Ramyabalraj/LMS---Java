@@ -130,9 +130,9 @@ public class Resources {
     public void setResUrl(String resUrl) {
         this.resUrl = resUrl;
     }
-     public Resources(long resId,String resImg,String resName,String resTech,String resType,String resUrl,Level level){
+     public Resources(long resId,String resName,String resTech,String resType,String resUrl,Level level){
      this.resId=resId;
-  this.resImg=resImg;
+ 
      this.resName=resName;
      this.resTech=resTech;
      this.resType=resType;
