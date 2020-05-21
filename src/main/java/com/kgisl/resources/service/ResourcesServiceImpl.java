@@ -49,7 +49,7 @@ public class ResourcesServiceImpl implements ResourcesService {
       Resources r3=new Resources(0,"https://userspringboot.herokuapp.com/images/java1.png","Java Basics 1","Java","Video","LMS.com",l);
      Resources r4=new Resources(0,"https://userspringboot.herokuapp.com/images/angular%20js%203.png","Angular First Look ","Angular","Video","LMS.com",l);
      Resources r5=new Resources(0,"https://userspringboot.herokuapp.com/images/icons8-typescript-96.png","AngularJS with TypeScript","AngularJS","Video","LMS.com",l2);
-     Resources r6=new Resources(0,"https://userspringboot.herokuapp.com/images/try.jpg","Angular Big Look","Angular","Video","LMS.com",l3);
+     Resources r6=new Resources(0,"https://userspringboot.herokuapp.com/images/ok3ang.png","Angular Big Look","Angular","Video","LMS.com",l3);
      Resources r7=new Resources(0,"https://userspringboot.herokuapp.com/images/pythonds.png","Python Machine Learning","Python","Video","LMS.com",l);
      Resources r8=new Resources(0,"https://userspringboot.herokuapp.com/images/anjdepth.jpg","Angular Js InDepth ","Angular Js","Video","LMS.com",l3);
      Resources r9=new Resources(0,"https://userspringboot.herokuapp.com/images/python_programming_10x1.png","Python Data science","Python","Video","LMS.com",l3);
