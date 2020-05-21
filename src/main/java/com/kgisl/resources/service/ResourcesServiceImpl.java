@@ -45,9 +45,9 @@ public class ResourcesServiceImpl implements ResourcesService {
       Level l3=new Level(3,"Professional");
      Resources r=new Resources(0,"https://userspringboot.herokuapp.com/images/ok2.jpg","Java Script Basics 1","Java Script","Video","LMS.com",l);
       Resources r1=new Resources(0,"https://userspringboot.herokuapp.com/images/js1.png","Java Script Fundamentals 1","Java Script","Video","LMS.com",l);
-      Resources r2=new Resources(0,"https://userspringboot.herokuapp.com/images/java1.png","AngularJS : Getting started 1","AngularJS","Video","LMS.com",l);
-      Resources r3=new Resources(0,"https://userspringboot.herokuapp.com/images/icons8-angularjs-96.png","Java Basics 1","Java","Video","LMS.com",l);
-     Resources r4=new Resources(0,"https://userspringboot.herokuapp.com/images/ok3ang.png","Angular First Look ","Angular","Video","LMS.com",l);
+      Resources r2=new Resources(0,"https://userspringboot.herokuapp.com/images/angularjs.png","AngularJS : Getting started 1","AngularJS","Video","LMS.com",l);
+      Resources r3=new Resources(0,"https://userspringboot.herokuapp.com/images/java1.png","Java Basics 1","Java","Video","LMS.com",l);
+     Resources r4=new Resources(0,"https://userspringboot.herokuapp.com/images/angular%20js%203.png","Angular First Look ","Angular","Video","LMS.com",l);
      Resources r5=new Resources(0,"https://userspringboot.herokuapp.com/images/icons8-typescript-96.png","AngularJS with TypeScript","AngularJS","Video","LMS.com",l2);
      Resources r6=new Resources(0,"https://userspringboot.herokuapp.com/images/try.jpg","Angular Big Look","Angular","Video","LMS.com",l3);
      Resources r7=new Resources(0,"https://userspringboot.herokuapp.com/images/pythonds.png","Python Machine Learning","Python","Video","LMS.com",l);
