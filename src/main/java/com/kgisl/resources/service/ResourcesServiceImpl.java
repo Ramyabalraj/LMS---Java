@@ -51,8 +51,8 @@ public class ResourcesServiceImpl implements ResourcesService {
      Resources r5=new Resources(0,"https://userspringboot.herokuapp.com/images/icons8-typescript-96.png","AngularJS with TypeScript","AngularJS","Video","LMS.com",l2);
      Resources r6=new Resources(0,"https://userspringboot.herokuapp.com/images/try.jpg","Angular Big Look","Angular","Video","LMS.com",l3);
      Resources r7=new Resources(0,"https://userspringboot.herokuapp.com/images/python1.jpg","Python Machine Learning","Python","Video","LMS.com",l);
-     Resources r8=new Resources(0,"	https://userspringboot.herokuapp.com/images/anjdepth.jpg","Angular Js InDepth ","Angular Js","Video","LMS.com",l3);
-     Resources r9=new Resources(0,"	https://userspringboot.herokuapp.com/images/ML-made-easy-Python.jpg","Python Data science","Python","Video","LMS.com",l3);
+     Resources r8=new Resources(0,"https://userspringboot.herokuapp.com/images/anjdepth.jpg","Angular Js InDepth ","Angular Js","Video","LMS.com",l3);
+     Resources r9=new Resources(0,"https://userspringboot.herokuapp.com/images/ML-made-easy-Python.jpg","Python Data science","Python","Video","LMS.com",l3);
      Resources r10=new Resources(0,"https://userspringboot.herokuapp.com/images/icons8-python-64.png","Python Basics","Python","Video","LMS.com",l);
      Resources r11=new Resources(0,"https://userspringboot.herokuapp.com/images/interface.png","Java Script: ES6","JS ES6","Video","LMS.com",l3);
      Resources r12=new Resources(0,"https://userspringboot.herokuapp.com/images/icons8-java-48.png","Java","Java","Video","LMS.com",l);
