@@ -74,7 +74,7 @@ public class ResourcesServiceImpl implements ResourcesService {
     //  resourcesRepository.save(r6);
     //  resourcesRepository.save(r7);
     //  resourcesRepository.save(r8);
-           List<Resources> res = Arrays.asList(r,r2,r3,r16,r4,r6,r7,r9,r11,r14,r15,r13,r17,r10,r18,r8,r19,r12,r21,r22,r1,r20);
+           List<Resources> res = Arrays.asList(r,r2,r3,r16,r4,r9,r11,r14,r15,r17,r10,r18,r8,r19,r12,r21,r22,r1,r20,r6,r7,r13);
      List<Resources> list = resourcesRepository.saveAll(res);
     //  List<Resources> list=  get();
      return list;
