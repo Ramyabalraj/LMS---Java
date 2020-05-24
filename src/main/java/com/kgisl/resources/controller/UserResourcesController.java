@@ -42,10 +42,25 @@ public class UserResourcesController {
 
    @GetMapping(value = "/{userId}/{resId}/", headers = "Accept=application/json")
    public ResponseEntity<UserResources> create(@RequestParam("userId") int userId,@RequestParam("resId[]") int resId[]) {
-      for (int x : resId)
-       { 
-       userResourcesService.create(userId,x);
-        }
+//       for (int x : resId)
+//        { 
+//        userResourcesService.create(userId,x);
+//         }
+            int b[] = resId.clone(); 
+      for(int y: b){
+  System.out.println("hii"+y);
+      }
+
+     for(int i=0;i<resId.length;i++){
+         for(int j=0;j<resId.length;j++){
+        if(b[i]==resId[j]){
+       userResourcesService.create(userId,b[i]);
+           }
+           else{
+              userResourcesService.create(userId,b[i]);   
+           }
+         }
+     }
     return new ResponseEntity<>(HttpStatus.CREATED);
    }
 
