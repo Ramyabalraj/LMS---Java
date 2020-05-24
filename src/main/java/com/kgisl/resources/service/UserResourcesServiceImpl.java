@@ -19,7 +19,7 @@ public class UserResourcesServiceImpl implements UserResourcesService {
     @Autowired
     UserResourcesRepository userResourcesRepository;
 
-    public UserResources create(int userId,int resId){
+    public UserResources create(int userId,long resId){
      
       userResourcesRepository.log(userId,resId);
        return null;
