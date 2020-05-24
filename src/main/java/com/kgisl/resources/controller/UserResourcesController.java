@@ -49,7 +49,7 @@ public class UserResourcesController {
             System.out.print(obj.resources.resId + " "); 
          list.add(obj.resources.resId);
     } 
-       for(int r : resId) {
+       for(long r : resId) {
          list.add(r);
       }
       Set<Integer> mySet = new HashSet<>();
@@ -58,7 +58,7 @@ public class UserResourcesController {
          mySet.add(y);
   
       }
-      for(int x: mySet){
+      for(long x: mySet){
         userResourcesService.create(userId,x);  
       }
     return new ResponseEntity<>(HttpStatus.CREATED);
