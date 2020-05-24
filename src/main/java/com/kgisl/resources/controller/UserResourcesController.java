@@ -43,7 +43,7 @@ public class UserResourcesController {
    @GetMapping(value = "/{userId}/{resId}/", headers = "Accept=application/json")
    public ResponseEntity<UserResources> create(@RequestParam("userId") int userId,@RequestParam("resId[]") long resId[]) {
   List<UserResources> ulist=userResourcesService.get();
-       ArrayList<Integer> list = new ArrayList<>();
+       ArrayList<Long> list = new ArrayList<>();
      
       for (UserResources obj : ulist) {
             System.out.print(obj.resources.resId + " "); 
