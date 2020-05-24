@@ -44,7 +44,7 @@ public class UserResourcesController {
    public ResponseEntity<UserResources> create(@RequestParam("userId") int userId,@RequestParam("resId[]") int resId[]) {
   List<UserResources> ulist=userResourcesService.get();
       int[] uresId = ulist.toArray();
-      for (int obj : uresId) 
+      for (int obj : uresId) {
             System.out.print(obj.resId + " "); 
     } 
       Set<Integer> mySet = new HashSet<>();
