@@ -24,7 +24,7 @@ public class Resources {
    // @GeneratedValue(strategy = GenerationType.IDENTITY)
  @GeneratedValue
    @Column(name="RES_ID")
-    private Long resId;
+    public Long resId;
     private String resImg;
     private String resName;
     private String resTech;
