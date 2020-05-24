@@ -17,7 +17,7 @@ public interface UserResourcesRepository extends JpaRepository<UserResources,Lon
     @Modifying
     @Query(value = "insert into USER_RESOURCES (USER_USER_ID,RESOURCES_RES_ID) VALUES (:userId,:resId)", nativeQuery = true)
     @Transactional
- void log(@Param("userId") int userId,@Param("resId") int resId);
+ void log(@Param("userId") int userId,@Param("resId") long resId);
   
 
 }
