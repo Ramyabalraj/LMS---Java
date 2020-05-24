@@ -52,7 +52,7 @@ public class UserResourcesController {
        for(long r : resId) {
          list.add(r);
       }
-      Set<Integer> mySet = new HashSet<>();
+      Set<Long> mySet = new HashSet<>();
       for(long y: list){
   System.out.println("hii"+y);
          mySet.add(y);
