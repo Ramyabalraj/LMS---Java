@@ -21,7 +21,7 @@ public class UserResources {
   private User user;
   @ManyToOne(cascade = CascadeType.ALL)
   //  @JoinColumn(name = "RES_ID") 
-  private  Resources resources;
+  public  Resources resources;
  
     
    
