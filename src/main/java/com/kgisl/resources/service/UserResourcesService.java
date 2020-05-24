@@ -6,7 +6,7 @@ import com.kgisl.resources.entity.*;
 
 public interface UserResourcesService {
 
-    public UserResources create(int userId,int resId);
+    public UserResources create(int userId,long resId);
     public List<UserResources> get();
     public UserResources findById(Long id);
     public void delete(Long id);
