@@ -43,7 +43,7 @@ public class UserResourcesController {
    @GetMapping(value = "/{userId}/{resId}/", headers = "Accept=application/json")
    public ResponseEntity<UserResources> create(@RequestParam("userId") int userId,@RequestParam("resId[]") int resId[]) {
   List<UserResources> ulist=userResourcesService.get();
-      int[] uresId = ulist.toArray();
+      UserResources uresId = ulist.toArray();
       for (int obj : uresId) {
             System.out.print(obj.resId + " "); 
     } 
