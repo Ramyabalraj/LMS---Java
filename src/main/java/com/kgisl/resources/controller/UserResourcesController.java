@@ -45,10 +45,10 @@ public class UserResourcesController {
   List<UserResources> ulist=userResourcesService.get();
        ArrayList<Long> list = new ArrayList<>();
      
-      for (UserResources obj : ulist) {
-            System.out.print(obj.resources.resId + " "); 
-         list.add(obj.resources.resId);
-    } 
+//       for (UserResources obj : ulist) {
+//             System.out.print(obj.resources.resId + " "); 
+//          list.add(obj.resources.resId);
+//     } 
        for(long r : resId) {
          list.add(r);
       }
