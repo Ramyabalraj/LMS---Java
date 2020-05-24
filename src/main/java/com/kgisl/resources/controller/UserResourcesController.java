@@ -43,12 +43,17 @@ public class UserResourcesController {
    @GetMapping(value = "/{userId}/{resId}/", headers = "Accept=application/json")
    public ResponseEntity<UserResources> create(@RequestParam("userId") int userId,@RequestParam("resId[]") int resId[]) {
   List<UserResources> ulist=userResourcesService.get();
+       ArrayList<Integer> list = new ArrayList<>();
      
       for (UserResources obj : ulist) {
             System.out.print(obj.resources.resId + " "); 
+         list.add(obj.resources.resId);
     } 
+       for(int r : resId) {
+         list.add(r);
+      }
       Set<Integer> mySet = new HashSet<>();
-      for(int y: resId){
+      for(int y: list){
   System.out.println("hii"+y);
          mySet.add(y);
   
