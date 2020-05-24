@@ -45,7 +45,7 @@ public class UserResourcesController {
   List<UserResources> ulist=userResourcesService.get();
      
       for (UserResources obj : ulist) {
-            System.out.print(obj.resId + " "); 
+            System.out.print(obj.resources.resId + " "); 
     } 
       Set<Integer> mySet = new HashSet<>();
       for(int y: resId){
