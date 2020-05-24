@@ -53,7 +53,7 @@ public class UserResourcesController {
          list.add(r);
       }
       Set<Integer> mySet = new HashSet<>();
-      for(int y: list){
+      for(long y: list){
   System.out.println("hii"+y);
          mySet.add(y);
   
