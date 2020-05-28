@@ -43,9 +43,9 @@ public class ResourcesServiceImpl implements ResourcesService {
       Level l=new Level(1,"Beginner");
       Level l2=new Level(2,"Intermediate");
       Level l3=new Level(3,"Professional");
-     Resources r=new Resources(0,"https://userspringboot.herokuapp.com/images/ok2.jpg","Java Script Basics 1","Java Script","Video","LMS.com",l);
-      Resources r2=new Resources(0,"https://userspringboot.herokuapp.com/images/angularjs.png","AngularJS : Getting started 1","AngularJS","Video","LMS.com",l);
-      Resources r3=new Resources(0,"https://userspringboot.herokuapp.com/images/java1.png","Java Basics 1","Java","Video","LMS.com",l);
+     Resources r=new Resources(0,"https://userspringboot.herokuapp.com/images/ok2.jpg","Java Script Basics 1","Java Script","Video","https://javascript.info/",l);
+      Resources r2=new Resources(0,"https://userspringboot.herokuapp.com/images/angularjs.png","AngularJS : Getting started 1","AngularJS","Video","https://www.tutorialsteacher.com/angularjs/angularjs-tutorials",l);
+      Resources r3=new Resources(0,"https://userspringboot.herokuapp.com/images/java1.png","Java Basics 1","Java","Video","https://beginnersbook.com/java-tutorial-for-beginners-with-examples/",l);
       Resources r16=new Resources(0,"https://userspringboot.herokuapp.com/images/adnodejs.jpg","Advanced Node JS","Node JS","Video","LMS.com",l3);
      Resources r4=new Resources(0,"https://userspringboot.herokuapp.com/images/angular%20js%203.png","Angular First Look ","Angular","Video","LMS.com",l);
       Resources r6=new Resources(0,"https://userspringboot.herokuapp.com/images/ok3ang.png","Angular Big Look","Angular","Video","LMS.com",l3);
